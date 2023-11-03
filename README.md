@@ -8,7 +8,7 @@ Search MEDLINE/PubMed using medical terms or phrases in Arabic, Chinese, English
 ## Installation
 
 Babelmesh requires Apache, MySQL, Javascript and PHP. It also requires an NLM/NCBI API key. Learn how to get one here:
-
+  
   https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/
 
 Initialize the database by running these commands:
