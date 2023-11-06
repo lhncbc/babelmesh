@@ -16,7 +16,7 @@ Initialize the database by unzipping the database dump file and then loading it:
 - unzip crosslan.zip (this multipart zip file was zipped using WinZip)
 - mysql -u ADMIN -p < crosslan.sql 
 
-Customize the source code for your site in files include/conf.php and include/db_env.php.
+Customize the source code for your site in files include/conf.php and include/dbconnect.php.
 
 ## License
 
