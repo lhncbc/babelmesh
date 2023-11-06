@@ -11,12 +11,12 @@ Babelmesh requires Apache, MySQL, Javascript and PHP. It also requires an NLM/NC
   
   https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/
 
-Initialize the database by running these commands:
+Initialize the database by unzipping the database dump file and then loading it:
 
 - unzip crosslan.zip (this multipart zip file was zipped using WinZip)
 - mysql -u ADMIN -p < crosslan.sql 
 
-Customize source code for your site in files include/conf.php and include/db_env.php.
+Customize the source code for your site in files include/conf.php and include/db_env.php.
 
 ## License
 
